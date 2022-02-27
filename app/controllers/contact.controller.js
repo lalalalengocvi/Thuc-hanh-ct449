@@ -1,6 +1,6 @@
-const res = require("express/lib/response")
 
-modul.exports = class ContactController 
+
+module.exports = class ContactController 
 {
     create = async (req, res) => {
         res.send({message:"create handler"});
