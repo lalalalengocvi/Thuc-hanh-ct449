@@ -1,28 +1,27 @@
-
-
-module.exports = class ContactController 
-{
-    create = async (req, res) => {
-        res.send({message:"create handler"});
+    exports.create = (req, res) => {
+        res.send({ message: "create handler" });
     };
 
-    findAll = async (req, res ) => {
-        res.send({message:"find all handle"});
+    exports.findAll = (req, res ) => {
+        res.send({ message: "find all handle" });
     };
 
-    findOne = async (req, res) => {
-        res.send({message:"update handler"});
+    exports.findOne = (req, res) => {
+        res.send({ message: "update handler" });
     };
     
-    delete = async (req, res ) => {
-        res.send({message:"delete handler"});
+    exports.update = (req, res ) => {
+        res.send({ message: "update handler" });
     }; 
     
-    deleteAll = async (req, res) => {
-        res.send({message:"delete all handler"});
+    exports.delete = (req, res) => {
+        res.send({ message: "delete handler" });
+    }; 
+
+    exports.deleteAll = (req, res) => {
+        res.send({ message:"deleteAll handler" });
     };
     
-    update = async (req, res) => {
-        res.send('updata');
-    }
-}
+    exports.findAllFavorite = (req, res) => {
+        res.send({ message: "findAllFavorite handler "});
+    };

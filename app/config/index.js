@@ -1,5 +1,5 @@
 const config = {
-    app:  {
+    app: {
         port: process.env.PORT || 8080,
     }, 
 }; 
